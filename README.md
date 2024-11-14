@@ -76,9 +76,11 @@ git checkout master
 git merge conflict_branch
 ```
 Отображение конфликта:
+
 ![Конфликт](screenshots/conflict.jpg)
 
 Решение конфликта:
+
 ![Решение конфликта](screenshots/conflict1.jpg)
 
 ## Удаление побочной ветки после слияния
