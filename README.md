@@ -31,4 +31,31 @@ git config --global user.email 1nikita05@mail.ru
 ## Клонирование репозитория
 1. Клонировал репозиторий на компьютер:
 ```bash
-git clone https://github.com/x99zed/LR6.git```
+git clone https://github.com/x99zed/LR6.git
+```
+
+## Добавление файла через интерфейс GitHub
+
+1. Нажатием кнопки "Add file" --> "Create new file" был добавлен файл ["example.txt"](example.txt) в репозиторий.
+
+2. Подтянул изменения в локальный репозиторий.
+```bash
+git pull
+```
+Работу продолжил локально.
+
+## Получение истории операций
+
+1. Для просмотра истории операций во всех ветках выполнил команду:
+```bash
+git log --oneline --all
+```
+![Результат](screenshots/log.jpg)
+
+## Просмотр последних изменений
+
+1. Для просмотра последних изменений выполнил команду:
+```bash
+git show
+```
+[Результат](screenshots/show.jpg)
